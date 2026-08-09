@@ -11,7 +11,7 @@
 <EditText android:id="@+id/plate" android:hint="Vehicle Registration Number"
  android:inputType="textCapCharacters" android:textSize="19sp"
  android:layout_width="match_parent" android:layout_height="wrap_content"/>
-<Button android:id="@+id/capture" android:text="📸 Capture & Read Number"
+<Button android:id="@+id/capture" android:text="📸 Capture &amp; Read Number"
  android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <Button android:id="@+id/save" android:text="➕ Save Vehicle"
  android:layout_width="match_parent" android:layout_height="wrap_content"/>
