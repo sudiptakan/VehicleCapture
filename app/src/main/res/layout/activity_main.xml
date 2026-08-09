@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="12dp" android:background="#EEF3F8"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="🚗 Vehicle Registration Capture" android:textSize="21sp" android:textStyle="bold"
+ android:textColor="#FFFFFF" android:background="#0B4F8A" android:padding="16dp"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<androidx.camera.view.PreviewView android:id="@+id/preview"
+ android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="0dp"
+ android:layout_weight="1"/>
+<EditText android:id="@+id/plate" android:hint="Vehicle Registration Number"
+ android:inputType="textCapCharacters" android:textSize="19sp"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/capture" android:text="📸 Capture & Read Number"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/save" android:text="➕ Save Vehicle"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/export" android:text="⬇ Export Excel"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/status" android:text="Allow camera permission to begin."
+ android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
